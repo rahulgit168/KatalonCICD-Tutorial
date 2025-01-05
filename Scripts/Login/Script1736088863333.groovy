@@ -21,11 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://the-internet.herokuapp.com/login')
 
-WebUI.doubleClick(findTestObject('Object Repository/Page_The Internet/em_tomsmith'))
-
 WebUI.setText(findTestObject('Object Repository/Page_The Internet/input_Username_username'), 'tomsmith')
-
-WebUI.doubleClick(findTestObject('Object Repository/Page_The Internet/em_SuperSecretPassword'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_The Internet/input_Password_password'), 'T6bVo8B8lVC7U1u1L64B7tu+ltX9y9HI')
 
